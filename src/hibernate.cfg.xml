@@ -29,7 +29,7 @@
         <property name="connection.pool_size">5</property>
 
         <!--Specifies  Hibernate ddl automatically according to  (create, create-drop, validate, update) create not work using xml-->
-        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
 
         <!--batch size-->
         <property name="hibernate.jdbc.batch_size" > 50</property>
